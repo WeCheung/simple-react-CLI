@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/templates/javascript" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/test-dir" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/templates/javascript" vcs="" />
+    <mapping directory="$PROJECT_DIR$/test-dir" vcs="" />
   </component>
 </project>
