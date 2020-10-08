@@ -1,8 +1,8 @@
 {
   "name": "simple-react-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple react CLI",
-  "main": "src/main.js",
+  "main": "src/cli.js",
   "author": "harold <1003306162@qq.com>",
   "license": "MIT",
   "dependencies": {
@@ -21,6 +21,8 @@
     "create-simple-react"
   ],
   "bin": {
-    "create-simple-react": "bin/create-project.js"
+    "create-simple-react": "bin/create-project.js",
+    "create-simple-react-app": "bin/create-project.js",
+    "csra": "bin/create-project.js"
   }
 }
