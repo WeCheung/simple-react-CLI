@@ -1,7 +1,7 @@
 {
-  "name": "simple-react-CLI",
+  "name": "A simple React project",
   "version": "1.0.0",
-  "description": "A simple react project",
+  "description": "A simple React project",
   "main": "index.js",
   "author": "",
   "license": "MIT",

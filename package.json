@@ -1,6 +1,6 @@
 {
   "name": "create-simple-react-app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple react CLI",
   "main": "src/cli.js",
   "author": "harold <1003306162@qq.com>",

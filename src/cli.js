@@ -49,15 +49,6 @@ async function promptForMissingOptions(options) {
     })
   }
   
-  if (!options.git) {
-    questions.push({
-      type: 'confirm',
-      name: 'git',
-      message: 'Initialize a git repository?',
-      default: false
-    })
-  }
-  
   questions.push({
     type: 'checkbox',
     name: 'dependencies',
@@ -69,6 +60,15 @@ async function promptForMissingOptions(options) {
       'react-router-dom'
     ]
   })
+  
+  if (!options.git) {
+    questions.push({
+      type: 'confirm',
+      name: 'git',
+      message: 'Initialize a git repository?',
+      default: false
+    })
+  }
   
   if (!options.runInstall) {
     questions.push({
@@ -86,6 +86,7 @@ async function promptForMissingOptions(options) {
     template: options.template || answers.template,
     git: options.git || answers.git,
     runInstall: options.runInstall || answers.runInstall,
+    dependencies: answers.dependencies || undefined
   }
 }
 
