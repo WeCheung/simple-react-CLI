@@ -35,7 +35,7 @@ It's a tool for developers who are familiar with Webpack or want to learn Webpac
 
 ## problems
 
-1. You can't choose redux and react-router-dom before version 0.3.0
+1. You can't choose redux and react-router-dom before version 1.2.0
 2. There is no tests in any templates
 3. There may be problems when using static resources
 4. I am still a rookie using Webpack, I am sorry for the bad experience you have when using this tool. If you have any problems or and ideas to imporve, welcome to join me
