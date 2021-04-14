@@ -1,4 +1,5 @@
 # create-simple-react-app
+随缘更新
 A quick way to create a simple react project
 
 It's a tool for developers who are familiar with Webpack or want to learn Webpack
